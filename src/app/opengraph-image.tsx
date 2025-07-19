@@ -9,6 +9,8 @@ export const size = {
   height: 630,
 };
 
+export const dynamic = 'force-static';
+
 export const contentType = "image/png";
 
 export default async function Image() {

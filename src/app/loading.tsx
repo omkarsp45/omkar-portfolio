@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 export default function Loading() {
   return (
     <div className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-11">

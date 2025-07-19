@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  distDir: 'dist',
   // Enable React strict mode for better development experience
   reactStrictMode: true,
 

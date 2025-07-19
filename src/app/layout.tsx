@@ -12,6 +12,8 @@ const inter = Inter({
   display: "swap",
 });
 
+export const dynamic = 'force-static';
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://cv.jarocki.me"),
   title: {

@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "serve dist",
     "lint": "biome lint ./src",
     "lint:fix": "biome lint --write ./src",
     "format": "biome format ./src",
@@ -31,6 +31,7 @@
     "react": "^18",
     "react-dom": "^18",
     "reflect-metadata": "^0.2.2",
+    "serve": "^14.2.4",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7",
     "type-graphql": "^2.0.0-beta.6",
